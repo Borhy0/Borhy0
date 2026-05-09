@@ -17,11 +17,11 @@
 # 👨‍💻 About Me
 
 ```yaml
-Name: Marwan Mohammed Motawea
 Role: Software Engineer | Fullstack .NET Developer
 Location: Maadi, Cairo, Egypt
 University: Helwan University - Faculty of Computer Science & Artificial Intelligence
 Major: Software Engineering
+
 
 Focus:
   - Backend Development
