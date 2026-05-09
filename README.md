@@ -121,9 +121,9 @@ Currently Learning:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Borhy0&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&rank_icon=github" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Borhy0&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Borhy0&layout=compact&theme=tokyonight&hide_border=true&border_radius=15" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Borhy0&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 
 </div>
 
@@ -175,6 +175,52 @@ Currently Learning:
 
 ---
 
+# ⚙️ Snake Workflow Setup
+
+Create this file inside:
+
+```bash
+.github/workflows/snake.yml
+```
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Borhy0
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Then go to:
+
+* Repository → Actions
+* Enable workflows
+* Run the workflow once manually
+
+After a few minutes, the snake animation will appear automatically.
+
+---
+
 # ⚡ Random Dev Quote
 
 <div align="center">
@@ -182,7 +228,6 @@ Currently Learning:
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 
 </div>
-
 
 ---
 
