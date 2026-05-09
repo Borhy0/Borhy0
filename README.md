@@ -183,17 +183,6 @@ Currently Learning:
 
 </div>
 
----
-
-# 🎧 Spotify Playing
-
-<div align="center">
-
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31wqexample&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" />
-
-</div>
-
-> Replace the Spotify UID above with your Spotify user ID if you want the widget to work.
 
 ---
 
