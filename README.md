@@ -49,38 +49,6 @@ Currently Learning:
 
 ---
 
-# 💼 Professional Experience
-
-## 🏢 National Telecommunication Institute (NTI) — MEAN Stack
-
-📍 Cairo | 06/2025 – 07/2025
-
-* Completed an intensive training program covering MongoDB, Node.js, ES6, TypeScript, and Angular.
-* Built real-world full-stack projects and improved collaboration skills.
-* Strengthened communication, adaptability, teamwork, and leadership mindset.
-
----
-
-## 🏢 Digital Egypt Pioneers Initiative (DEPI) — Full-Stack .NET
-
-📍 Hybrid | 11/2024 – 03/2025
-
-* Built scalable web services using .NET Core Web API and MVC.
-* Worked on backend logic, debugging, optimization, and data-driven applications.
-* Improved teamwork and collaborative development experience.
-
----
-
-## 🏢 Information Technology Institute (ITI) — React & Bootstrap
-
-📍 Cairo | 08/2025 – 09/2025
-
-* Learned modern frontend development using React.js and Bootstrap.
-* Built responsive component-based applications following modern UI practices.
-* Improved UI/UX understanding and frontend integration skills.
-
----
-
 # 🚀 Featured Projects
 
 ## 🎬 Movie Website
@@ -117,17 +85,6 @@ Currently Learning:
 
 ---
 
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Borhy0&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Borhy0&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-
-</div>
-
----
 
 # 🔥 GitHub Streak
 
@@ -162,62 +119,6 @@ Currently Learning:
 </a>
 
 </div>
-
----
-
-# 🐍 Contribution Snake
-
-<div align="center">
-
-![snake gif](https://github.com/Borhy0/Borhy0/blob/output/github-contribution-grid-snake.svg)
-
-</div>
-
----
-
-# ⚙️ Snake Workflow Setup
-
-Create this file inside:
-
-```bash
-.github/workflows/snake.yml
-```
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Borhy0
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Then go to:
-
-* Repository → Actions
-* Enable workflows
-* Run the workflow once manually
-
-After a few minutes, the snake animation will appear automatically.
 
 ---
 
